@@ -1,8 +1,8 @@
-var city = new[] { "Austin", "New York", "San Francisco" };
+var cities = new[] { "Austin", "New York", "San Francisco" };
 
-for (var index = 0; index < city.count(); index++)
+for (var index = 0; index < cities.count(); index++)
 {
-    var city_List = city[index];
+    var city_List = cities[index];
     DoInitialActivities();
     DoSecondaryActivities();
     Dispatch(city_List);
