@@ -1,0 +1,1 @@
+var currentDate = DateTime.UtcNow.ToString("MM, DD, YYYY");
