@@ -1,1 +1,1 @@
-
+var dataFromDb = db.GetFromService().ToList();
