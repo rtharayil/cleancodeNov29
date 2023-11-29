@@ -1,4 +1,4 @@
-var employeephone;
+var employeePhone;
 
 public double CalculateSalary(int workingdays, int workinghours)
 {
