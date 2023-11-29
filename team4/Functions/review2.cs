@@ -1,6 +1,6 @@
 var fullName = "Ryan McDermott";
  
-public void PrintNameDetails()
+public void PrintNameDetails(var fullname)
 {
     var nameParts = fullName.Split(" ");
     if (nameParts.Length == 2)
