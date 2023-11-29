@@ -3,8 +3,6 @@ Issue: the method name is in negative sense hence preferably we prefer positive 
 public bool IsDOMNodePresent(string node)
 {
 }
- 
-// Usage
 if (IsDOMNodePresent(node))
 {
 }
