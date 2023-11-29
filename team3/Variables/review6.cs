@@ -1,8 +1,8 @@
 public class Car
 {
-    public string carMake { get; set; }
-    public string carModel { get; set; }
-    public string carColor { get; set; }
+    public string make { get; set; }
+    public string model { get; set; }
+    public string color { get; set; }
 
     //...
 }
