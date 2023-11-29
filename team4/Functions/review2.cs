@@ -1,16 +1,22 @@
 var fullName = "Ryan McDermott";
  
-public void PrintNameDetails(var fullname)
+public void PrintAsFirstNameAndLastName(string fullName)
 {
-    var nameParts = fullName.Split(" ");
-    if (nameParts.Length == 2)
+    if (!string.IsNullOrEmpty(fullName))
     {
-        var formattedName = $"His first name is {nameParts[0]}, and his last name is {nameParts[1]}";
-        Console.WriteLine(formattedName);
+        var temp = fullName.Split(" ");
+        if (temp.Length >= 2)
+        {
+            var formattedName = $"His first name is {temp[0]}, and his last name is {temp[1]}"; 
+            Console.WriteLine(formattedName);
+        }
+        else
+        {
+            Console.WriteLine("Invalid full name format.");
+        }
     }
     else
     {
-        Console.WriteLine("Invalid name format: Expected first and last name.");
+        Console.WriteLine("Full name is null or empty.");
     }
 }
-
