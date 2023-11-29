@@ -1,0 +1,1 @@
+var Employees = db.GetFromService().ToList(); // Get List of employees 
