@@ -6,7 +6,7 @@ public void SendEmailToActiveClients(string[] clientEmails)
 
         if (clientRecord != null && clientRecord.IsActive())
         {
-            YourEmailSendingMethod(clientEmail, "Subject", "Body");
+            EmailSendingMethod(clientEmail, "Subject", "Body");
         }
     }
 }
